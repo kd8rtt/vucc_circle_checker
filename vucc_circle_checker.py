@@ -4,9 +4,9 @@ VUCC Circle Location Checker
 Tony Milluzzi, KD8RTT 
 
 This script checks all listed locations against one another
-to determine if any are more than 200km apart. If any two locations
-are more than 200km apart, a message will provide the details.
-If all locations are less than or equal to 200km from one another,
+to determine if any are more than 200 km apart. If any two locations
+are more than 200 km apart, a message will provide the details.
+If all locations are less than or equal to 200 km from one another,
 a confirmation message will be printed.
 
 For VUCC details, see rule 6:
@@ -48,7 +48,7 @@ while k < len(out):
     del out[index]
     k=k+1
     if dist >= 200:
-        print('Distance between ' + loc1n + ' and ' + loc2n + ' is ' + str(dist) + 'km')
+        print('Distance between ' + loc1n + ' and ' + loc2n + ' is ' + str(dist) + ' km')
     	count = count + 1
 if count == 0:
-	print('All locations are within 200km of one another.')       
+	print('All locations are within 200 km of one another.')       
