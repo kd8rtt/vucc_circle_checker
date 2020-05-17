@@ -17,12 +17,9 @@ from geopy import distance
 # Enter a location name, latitude, and longitude (in degrees)
 # for each location of interest. Add lines following the same
 # format as desired.
-locations = [['EM28OX', 38.978333, -94.793333],
-             ['EM38CX_EM39CA', 38.999148, -93.787497],
-             ['EM29PA', 39.020796, -94.74382],
-             ['EM19XB', 39.044804, -96.039385],
-             ['EM28MP', 38.658138, -94.921205],
-             ['EM28IO', 38.597833, -95.270631]]
+locations = [['Location1Name', 38.978333, -94.793333],
+             ['Location2Name', 38.999148, -93.787497],
+             ['Location2Name', 39.020796, -94.74382]]
 
 out = []
 k = 0
